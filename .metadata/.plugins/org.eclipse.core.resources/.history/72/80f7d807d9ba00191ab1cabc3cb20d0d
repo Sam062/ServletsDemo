@@ -1,0 +1,15 @@
+<center>
+	<font color="gray">Name : </font><input type="text" name="input_Name" value="Name">
+	<br>
+	<font color="gray">Gender : </font><input type="radio" value="Male" name="Male">M
+										<input type="radio" value="Male" name="Female">F
+	<br>
+	<font color="gray">Address : </font><input type="textarea" name="Address" value="add">
+	<br>
+	<font color="gray">Languages : </font><input type="checkbox">English<br>
+											&nbsp&nbsp&nbsp&nbsp&nbsp<input type="checkbox">Hindi<br>
+											&nbsp&nbsp&nbsp&nbsp&nbsp&<input type="checkbox">Other<br>
+	<br>
+	
+	<input type="button" name="reg" value="register">
+</center>
