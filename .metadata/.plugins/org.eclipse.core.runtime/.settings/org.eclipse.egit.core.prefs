@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=F\:\\.git;
-GitRepositoriesView.GitDirectories.relative=F\:\\.git;
+GitRepositoriesView.GitDirectories=F\:\\.git;F\:\\ServletsDemo\\.git;
+GitRepositoriesView.GitDirectories.relative=F\:\\.git;.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
