@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert into DB</title>
+</head>
+<body>
+	<h3>Welcone to Student App</h3>
+	<form action="save" method="POST">
+	<pre>
+	ID     :<input type="text" name="sid">
+	NAME   :<input type="text" name="sname">
+	Gender :
+		<input type="radio" name="sgen" value="MALE"/>MALE
+		<input type="radio" name="sgen" value="FEMALE"/>FEMALE
+	ADDRESS:<textarea name="addr"></textarea>
+		<input type="submit" value="Register">
+	</pre>
+	</form>
+
+</body>
+</html>

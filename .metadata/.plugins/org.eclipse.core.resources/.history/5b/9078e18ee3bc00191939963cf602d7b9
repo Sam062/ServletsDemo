@@ -1,0 +1,36 @@
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register page</title>
+</head>
+<body>
+	<div style="align: center; width: 300px">
+		<h2 align="center">Welcome To Register Page</h2>
+		<form action="insert" method="post">
+			<pre>
+			Name : <input type="text" name="ename" /><br>
+			Email :<input type="text" name="email" />
+			
+			Course :<select name="course">
+			<option>Select</option>
+			<option>CORE JAVA</option>
+			<option>ADV JAVA</option>
+			<option>SPRING</option>
+			<option>ORACLE</option>
+			</select>
+			Gender :<input type="radio" name="gender" value="Male">Male
+			<input type="radio" name="gender" value="Female">Female
+			
+			
+			Address : <textarea name="addr"></textarea>
+			Language:<input type="checkbox" name="languages">
+			<input type="checkbox" name="lang" value="ENG">ENG
+			<input type="checkbox" name="lang" value="HINDI">HINDI
+			<input type="checkbox" name="lang" value="TAM">TAM
+			<input type="checkbox" name="lang" value="KAN">KAN
+			<input type="submit" value="Register" />			
+			</pre>
+		</form>
+	</div>
+</body>
+</html>
