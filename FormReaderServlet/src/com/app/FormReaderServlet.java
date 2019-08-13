@@ -21,6 +21,7 @@ public class FormReaderServlet extends GenericServlet{
 		String gender=req.getParameter("gender");
 		String addr=req.getParameter("addr");
 		String[] arr=req.getParameterValues("lang");
+		
 		//convert array data to List type
 		List<String> languages=Arrays.asList(arr);
 		//reading end-------------------------------

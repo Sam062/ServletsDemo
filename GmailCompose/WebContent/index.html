@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+</head>
+<body>
+	<fieldset style="width: 50%">
+	<legend style="font-size: 40px">Compose Email</legend>
+	<form action="send" method="POST">
+		<pre>
+		To 	 : <input type="email" placeholder="Enter Email" name="emailId" required="required"><br>
+		Subject  : <input type="text" placeholder="Enter Subject" name="subject"><br>
+		Message  : 
+		<textarea rows="10" cols="80" name="msg"></textarea><br>
+		
+		<input type="submit" value="send" onclick="popUp()">
+		</pre>
+	</form>
+	</fieldset>
+</body>
+</html>
