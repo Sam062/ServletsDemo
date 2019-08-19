@@ -1,7 +1,0 @@
-<!DOCTYPE unspecified PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-<font size=10 color="gray">username :</font> <input type="text" value="input username">
-<br>
-<font size=10 color="gray">password:</font> <input type="password" value="password">
-<br>
-<input type="button" value="login">

@@ -15,8 +15,12 @@
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-    <fullyQualifiedTypeName name="javax.servlet.GenericServlet"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="org.graalvm.compiler.hotspot.stubs.DivisionByZeroExceptionStub"/>
+    <fullyQualifiedTypeName name="java.io.ObjectInputFilter.Config"/>
+    <fullyQualifiedTypeName name="ConfigMemory.ServletConfigMemory"/>
+    <fullyQualifiedTypeName name="javax.servlet.GenericServlet"/>
+    <fullyQualifiedTypeName name="javax.servlet.ServletConfig"/>
+    <fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
 </qualifiedTypeNameHistroy>
