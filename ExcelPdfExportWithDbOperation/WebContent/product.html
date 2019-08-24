@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<fieldset>
+		<legend>
+			<h2>Product Details</h2>
+		</legend>
+		<form action="prod" method="post">
+			<pre>
+Product Id    : <input type="text" name="pid" required="required">
+
+Product CODE  : <input type="text" name="pcode" required="required">
+
+Product Cost  : <input type="text" name="pcost" required="required">
+
+Description   : <textarea name="pdesc" required="required"></textarea>
+
+Product Grade : <select name="grade">
+<option>A</option>
+<option>B</option>
+<option>C</option>
+<option>D</option>
+</select>
+
+Submit Type : <select name="stype">
+<option>DB</option>
+<option>ExcelExport</option>
+<option>PdfExport</option>
+</select>
+
+<input type="submit" value="Submit"/>
+</pre>
+		</form>
+	</fieldset>
+
+</body>
+</html>

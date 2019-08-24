@@ -8,6 +8,7 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="System.out."/>
 			<item value="&lt;/p&gt;"/>
 			<item value="+&quot;&lt;br&gt;&quot;"/>
 		</list>
