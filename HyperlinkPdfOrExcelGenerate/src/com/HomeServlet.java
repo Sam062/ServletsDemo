@@ -23,7 +23,6 @@ public class HomeServlet extends HttpServlet {
 		String pdesc=req.getParameter("pdesc");
 		String grade=req.getParameter("grade");
 
-
 		int count=0;	
 		int pid=Integer.parseInt(id);
 		double pcost=Double.parseDouble(cost);
@@ -79,7 +78,6 @@ public class HomeServlet extends HttpServlet {
 			RequestDispatcher rd=req.getRequestDispatcher("product.html");
 			resp.getWriter().println("<div style=\"color: red\"><h4> Not inserted !</h4></div>");
 			rd.include(req, resp);
-
 
 		}
 	}
