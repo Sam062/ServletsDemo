@@ -24,7 +24,6 @@ public class CookieRead extends HttpServlet {
 				out.println(c.getName()+"="+c.getValue());
 		else
 			out.println("No Cookie Found");
-		
 	}
 
 }
