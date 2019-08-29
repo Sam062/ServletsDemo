@@ -2,6 +2,7 @@ package com;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Date;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -29,10 +30,16 @@ extends HttpServlet
 		
 		//print welcome message
 		PrintWriter out=resp.getWriter();
-		out.println("Welcome to :"+s);
-		out.println("<br><a href='logout'>Logout</a>");
+		ses.setMaxInactiveInterval(5);
+		if(ses!=null) {
+			out.println("Welcome to :"+s);
+			out.println("<br><a href='logout'>Logout</a>");
+			out.println("<br><br><h1>"+new Date()+"</h1>");
+			out.println("<br><br>Max inactive intervel is "+ses.getMaxInactiveInterval());
+			
+		}else
+			ses.invalidate();
 		
-//		resp.addHeader("refresh", "1");
-//		out.println(new Date());
+		
 	}
 }

@@ -31,6 +31,7 @@ extends HttpServlet
 			
 			//set data un=admin
 			ses.setAttribute("un", un);
+			ses.setMaxInactiveInterval(5);
 			
 			//goto ProfileServlet
 			RequestDispatcher rd=req.getRequestDispatcher("/profile");

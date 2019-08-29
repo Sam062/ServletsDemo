@@ -20,14 +20,20 @@ extends HttpServlet
 		resp.setContentType("text/html");
 		//read old session
 		HttpSession ses=req.getSession(false);
-		
-		//remove session
-		ses.invalidate();
-		
-		//print message
+
+
 		PrintWriter out=resp.getWriter();
-		out.println("Logout success!!");
-		
+		//remove session
+		if(ses==null){
+			out.println("Session alredy expired!!");
+		}
+		else {
+			ses.invalidate();
+			out.println("Logout success!!");
+		}
+
+		//print message
+
 		//goto Login Page
 		RequestDispatcher rd=req.getRequestDispatcher("index.html");
 		rd.include(req, resp);
