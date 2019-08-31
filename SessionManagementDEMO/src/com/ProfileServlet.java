@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Date;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -16,7 +17,7 @@ public class ProfileServlet
 extends HttpServlet
 {
 	@Override
-	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		resp.setContentType("text/html");
 		
 		//read old session
@@ -32,14 +33,13 @@ extends HttpServlet
 		PrintWriter out=resp.getWriter();
 		ses.setMaxInactiveInterval(5);
 		if(ses!=null) {
-			out.println("Welcome to :"+s);
-			out.println("<br><a href='logout'>Logout</a>");
-			out.println("<br><br><h1>"+new Date()+"</h1>");
+			resp.addHeader("refresh", "1");
+			out.println("<h1>Welcome to : "+s.toUpperCase()+"</h1>");
+			out.println("<h3>"+new Date()+"</h3>");
 			out.println("<br><br>Max inactive intervel is "+ses.getMaxInactiveInterval());
+			out.println("<br><h3><a href='logout'>Logout</a></h3>");
 			
 		}else
-			ses.invalidate();
-		
-		
+			ses.invalidate();	
 	}
 }

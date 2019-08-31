@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 public class HomePage extends HttpServlet {
 	
 	@Override
-	protected void doPost(HttpServletRequest req, HttpServletResponse resp) 
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) 
 			throws ServletException, IOException {
 		PrintWriter out=resp.getWriter();
 		
@@ -20,6 +20,6 @@ public class HomePage extends HttpServlet {
 		out.println("<h1>Logged in</h1>");
 		out.println(new Date());
 		
-		//resp.addHeader("refresh", "1");
+		resp.addHeader("refresh", "1");
 	}
 }

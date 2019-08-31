@@ -16,7 +16,7 @@ public class LoginCheckServlet
 extends HttpServlet
 {
 	@Override
-	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		resp.setContentType("text/html");
 		//1. read form data
 		String un=req.getParameter("un");
