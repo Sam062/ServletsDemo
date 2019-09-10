@@ -20,8 +20,8 @@ public class RegisterServlet extends HttpServlet {
 		String uname=req.getParameter("uname");
 		String pwd=req.getParameter("pwd");
 		
-		int uid=Integer.parseInt(id);
-		int count=DbOperation.insert(uid,uname,pwd);
+		int userid=Integer.parseInt(id);
+		int count=DbOperation.insert(userid,uname,pwd);
 
 		PrintWriter out=resp.getWriter();
 		if(count==1)

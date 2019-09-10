@@ -99,4 +99,6 @@
 	<section name="ClasspathContainerSelectionPage">
 		<item key="index" value="6"/>
 	</section>
+	<section name="OccurrencesSearchResultPage">
+	</section>
 </section>
