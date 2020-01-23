@@ -23,8 +23,6 @@
     <fullyQualifiedTypeName name="com.itextpdf.text.pdf.collection.PdfTargetDictionary"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="javax.servlet.GenericServlet"/>
-    <fullyQualifiedTypeName name="javax.servlet.ServletRequest"/>
-    <fullyQualifiedTypeName name="javax.servlet.ServletException"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
     <fullyQualifiedTypeName name="com.itextpdf.text.Document"/>
@@ -50,4 +48,7 @@
     <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
     <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="javax.servlet.ServletRequest"/>
+    <fullyQualifiedTypeName name="javax.servlet.ServletResponse"/>
+    <fullyQualifiedTypeName name="javax.servlet.ServletException"/>
 </qualifiedTypeNameHistroy>
