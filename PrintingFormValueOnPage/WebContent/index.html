@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<fieldset>
+		<legend><h1>Values Printed</h1></legend>
+		<form action="print" method="post">
+			ID :<input type="text" name="id"><br>
+			Name :<input type="text" name="name"><br>
+			Gender :<input type="radio" name="gen" value="MALE">MALE <input type="radio" name="gen" value="FEMALE">FEMALE<br>
+			Departments : <select name="dept" multiple="multiple">
+			<optgroup label="Departments">
+				<option>-select-</option>
+				<option>IT</option>
+				<option>DCS</option>
+				<option>MATH</option>
+				<option>BIO</option>
+				<option>CHEM</option>
+			</optgroup>
+			</select><br>
+			<input type="submit" value="Register">
+		</form>
+	</fieldset>
+
+</body>
+</html>

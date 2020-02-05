@@ -103,6 +103,7 @@
 		<item value="org.springsource.sts:3.9.11.201912161153-RELEASE"/>
 	</list>
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="F:\ServletsDemo\SessionManagementDEMO"/>
 		<item value="F:\ServletsDemo\CourseDetailsDB"/>
 		<item value="F:\ServletsDemo\LuckCheck"/>
 		<item value="F:\ServletsDemo\Calculator"/>
